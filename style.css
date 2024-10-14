@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    font-size: 0px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 2s;
+}
+
+.container:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 2s;
+}
+.result{
+    width: 395px;
+    height: 150px;
+    font-size: 30px;
+    letter-spacing: 15%;
+    padding: 0px 5px 0px 0px;
+    text-align: right;
+    border: none;
+}
+
+.btn{
+    width: 90px;
+    height: 90px;
+    padding: 22px 22px 22px 22px;
+    font-size: 20px;
+    margin:5px;
+    font-weight: bold;
+    background-color: rgb(49, 48, 48);
+    border-radius: 10px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(136, 136, 136);
+}
+
+.btnlast{
+    background-color: blueviolet;
+}
+
+.btnl{
+    background-color:orange;
+}
